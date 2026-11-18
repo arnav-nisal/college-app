@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment and local files
+.env
+.env*.local
+*.local
+
+# Logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Expo & Metro
+.expo/
+*/.expo/
+dist/
+web-build/
+expo-env.d.ts
+.metro-health-check*
+
+# TypeScript
+*.tsbuildinfo
+
+# Python / Backend (if used)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
