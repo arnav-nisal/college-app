@@ -1,41 +1,149 @@
-# Dependencies
+# ==============================================================================
+# SENSITIVE DATA, SECRETS & CREDENTIALS (NEVER COMMIT)
+# ==============================================================================
+# Environment variable files (can contain API keys, DB passwords, secrets)
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Private keys, certificates, keystores, and credentials
+*.pem
+*.key
+*.pkcs12
+*.pfx
+*.p12
+*.jks
+*.keystore
+*.cer
+*.crt
+*.der
+*.p8
+*.mobileprovision
+id_rsa*
+id_ed25519*
+
+# Cloud & Service credentials
+credentials.json
+client_secret*.json
+google-services.json
+GoogleService-Info.plist
+service-account*.json
+firebase*.json
+*.token
+*token*.json
+auth*.json
+
+# Database and SQLite local files
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.dump
+*.sql.gz
+
+# ==============================================================================
+# DEPENDENCIES & PACKAGES
+# ==============================================================================
 node_modules/
 */node_modules/
+package-lock.json.backup
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Environment and local files
-.env
-.env*.local
-*.local
+# ==============================================================================
+# PYTHON (BACKEND)
+# ==============================================================================
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Logs
-npm-debug.*
-yarn-debug.*
-yarn-error.*
+# Virtual environments
+.venv/
+*/.venv/
+venv/
+*/venv/
+ENV/
+env/
+*/env/
 
-# OS files
-.DS_Store
-Thumbs.db
+# Python testing & coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
 
-# Expo & Metro
+# ==============================================================================
+# REACT NATIVE & EXPO (FRONTEND)
+# ==============================================================================
 .expo/
 */.expo/
-dist/
 web-build/
 expo-env.d.ts
 .metro-health-check*
-
-# TypeScript
 *.tsbuildinfo
 
-# Python / Backend (if used)
-__pycache__/
-*.py[cod]
-*$py.class
-.venv/
-venv/
-env/
+# Generated native build folders (if prebuild is used)
+frontend/ios/
+frontend/android/
+/ios/
+/android/
+*.orig.*
 
-# IDE / Editor
-.vscode/
+# ==============================================================================
+# LOGS, TEMPORARY FILES & OS ARTIFACTS
+# ==============================================================================
+*.log
+logs/
+*.tmp
+*.temp
+.cache/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# ==============================================================================
+# IDE & EDITORS
+# ==============================================================================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
 .idea/
+*.sublime-project
+*.sublime-workspace
 *.swp
+*.swo
