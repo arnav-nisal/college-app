@@ -1,0 +1,124 @@
+{
+  "version": 2,
+  "skills": {
+    "api-security-best-practices": {
+      "source": "sickn33/agentic-awesome-skills",
+      "commit": "64d4b7263f2ae74790437fbe378655e606eb2b65",
+      "sourceType": "github",
+      "skillPath": "skills/api-security-best-practices/SKILL.md",
+      "computedHash": "37a80c0cbf22d07762159adbe81ee7e6cf34f82ce7583e2169cf2093d47de19c"
+    },
+    "auth-implementation-patterns": {
+      "source": "sickn33/agentic-awesome-skills",
+      "commit": "64d4b7263f2ae74790437fbe378655e606eb2b65",
+      "sourceType": "github",
+      "skillPath": "skills/auth-implementation-patterns/SKILL.md",
+      "computedHash": "b3c62ee170c1b830c0fc37271f12f711026a3a745da937d82d35afabb24184c3"
+    },
+    "brainstorming": {
+      "source": "sickn33/agentic-awesome-skills",
+      "commit": "64d4b7263f2ae74790437fbe378655e606eb2b65",
+      "sourceType": "github",
+      "skillPath": "skills/brainstorming/SKILL.md",
+      "computedHash": "d3ff46d4a04a35a01a774d4dd05663bd79ba11ba8728cafe3943aeca474f1163"
+    },
+    "building-native-ui": {
+      "source": "sickn33/agentic-awesome-skills",
+      "commit": "64d4b7263f2ae74790437fbe378655e606eb2b65",
+      "sourceType": "github",
+      "skillPath": "skills/building-native-ui/SKILL.md",
+      "computedHash": "e9d5f523c3c8bb9d8b11a743729f4c855ef9e8add98fef21f1829af6b87fed6f"
+    },
+    "clean-code": {
+      "source": "sickn33/agentic-awesome-skills",
+      "commit": "64d4b7263f2ae74790437fbe378655e606eb2b65",
+      "sourceType": "github",
+      "skillPath": "skills/clean-code/SKILL.md",
+      "computedHash": "12447e66c9334fa608ab29b45ea8076770590d1ccbf2ee705c24cdf24496643d"
+    },
+    "database-design": {
+      "source": "sickn33/agentic-awesome-skills",
+      "commit": "64d4b7263f2ae74790437fbe378655e606eb2b65",
+      "sourceType": "github",
+      "skillPath": "skills/database-design/SKILL.md",
+      "computedHash": "0646450007a3f78615549b9ebbe84fd44aedb5599d68e1cbee72841519e0937a"
+    },
+    "design-taste-frontend": {
+      "source": "sickn33/agentic-awesome-skills",
+      "commit": "64d4b7263f2ae74790437fbe378655e606eb2b65",
+      "sourceType": "github",
+      "skillPath": "skills/design-taste-frontend/SKILL.md",
+      "computedHash": "5bae376ee5e7e5026b273aaaebd46534e4df4ba5883f6f96e938f9b068a0ac88"
+    },
+    "expo-dev-client": {
+      "source": "sickn33/agentic-awesome-skills",
+      "commit": "64d4b7263f2ae74790437fbe378655e606eb2b65",
+      "sourceType": "github",
+      "skillPath": "skills/expo-dev-client/SKILL.md",
+      "computedHash": "31bdefb52dc99fd606909e33d3a3e67491c0edc2354427021942203abf5e9a0b"
+    },
+    "expo-tailwind-setup": {
+      "source": "sickn33/agentic-awesome-skills",
+      "commit": "64d4b7263f2ae74790437fbe378655e606eb2b65",
+      "sourceType": "github",
+      "skillPath": "skills/expo-tailwind-setup/SKILL.md",
+      "computedHash": "e6599cdde7bd74a512abbeee9eeb69cf32f50ca1ddfbe6bacc1d363e43c91423"
+    },
+    "fastapi-pro": {
+      "source": "sickn33/agentic-awesome-skills",
+      "commit": "64d4b7263f2ae74790437fbe378655e606eb2b65",
+      "sourceType": "github",
+      "skillPath": "skills/fastapi-pro/SKILL.md",
+      "computedHash": "551b19ada597c4986aa1249c26eb9942a3a090ebf2848c6456c66a8c0c16bb01"
+    },
+    "frontend-api-integration-patterns": {
+      "source": "sickn33/agentic-awesome-skills",
+      "commit": "64d4b7263f2ae74790437fbe378655e606eb2b65",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-api-integration-patterns/SKILL.md",
+      "computedHash": "0ba0afc3b6b7aed104adb76a3af3cfd62a0270aea94a318d43eb1fef5b8e0c10"
+    },
+    "native-data-fetching": {
+      "source": "sickn33/agentic-awesome-skills",
+      "commit": "64d4b7263f2ae74790437fbe378655e606eb2b65",
+      "sourceType": "github",
+      "skillPath": "skills/native-data-fetching/SKILL.md",
+      "computedHash": "fe1cc14caceed0c103ad9a7d7d524e0ddc08bc0cdcfcdf80579a1f1ab3014bae"
+    },
+    "python-testing-patterns": {
+      "source": "sickn33/agentic-awesome-skills",
+      "commit": "64d4b7263f2ae74790437fbe378655e606eb2b65",
+      "sourceType": "github",
+      "skillPath": "skills/python-testing-patterns/SKILL.md",
+      "computedHash": "5278dba42ef01121b96d81ddb43c43e7575fb9306fa746a92d66ce45735a1066"
+    },
+    "react-native-architecture": {
+      "source": "sickn33/agentic-awesome-skills",
+      "commit": "64d4b7263f2ae74790437fbe378655e606eb2b65",
+      "sourceType": "github",
+      "skillPath": "skills/react-native-architecture/SKILL.md",
+      "computedHash": "7d4154f74b4f3a710d636e0ff8ed299b12a3ba6e595b34240954ab855cedf51c"
+    },
+    "systematic-debugging": {
+      "source": "sickn33/agentic-awesome-skills",
+      "commit": "64d4b7263f2ae74790437fbe378655e606eb2b65",
+      "sourceType": "github",
+      "skillPath": "skills/systematic-debugging/SKILL.md",
+      "computedHash": "fe5c981170fd4a0bd8cc041367495a32302ce834178cff60964db7bd241140dd"
+    },
+    "ui-ux-pro-max": {
+      "source": "sickn33/agentic-awesome-skills",
+      "commit": "64d4b7263f2ae74790437fbe378655e606eb2b65",
+      "sourceType": "github",
+      "skillPath": "skills/ui-ux-pro-max/SKILL.md",
+      "computedHash": "d5603f0cf12c8d27d0d779baebb6b5f3afe5e85c6baa499e33131b90502a844e"
+    },
+    "uv-package-manager": {
+      "source": "sickn33/agentic-awesome-skills",
+      "commit": "64d4b7263f2ae74790437fbe378655e606eb2b65",
+      "sourceType": "github",
+      "skillPath": "skills/uv-package-manager/SKILL.md",
+      "computedHash": "47ccf240c388a330caf39ea25d31947bc5f7f070840bd1afc32c96fd92a25ddf"
+    }
+  }
+}
