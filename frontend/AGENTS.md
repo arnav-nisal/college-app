@@ -75,6 +75,7 @@ frontend/src/
 
 ## 2. Authentication & Navigation Flow
 
+- **Domain Restriction:** Google Sign-In is strictly restricted to the official institutional hosted domain (`@despu.edu.in`).
 - **Secure Token Storage:** Store the backend JWT bearer token exclusively in **`expo-secure-store`**. NEVER store JWTs in unencrypted `AsyncStorage` or global JavaScript memory.
 - **Root Auth Gating in `src/app/_layout.tsx`:**
   The root layout initializes the authentication state before rendering screens:

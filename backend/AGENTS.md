@@ -50,7 +50,7 @@ backend/
 - **Framework:** FastAPI (utilizing ASGI asynchronous request lifecycle).
 - **ORM & Database:** SQLAlchemy 2.0 async with `asyncpg` driver targeting Neon Serverless PostgreSQL.
 - **Cache & Real-time:** Redis for WebSocket pub/sub distribution and caching.
-- **Security & Auth:** `google-auth` for verifying `@dsp.edu.in` tokens, `pyjwt` for signing and validating session bearer tokens.
+- **Security & Auth:** `google-auth` for verifying `@despu.edu.in` tokens, `pyjwt` for signing and validating session bearer tokens.
 - **Data Validation:** Pydantic V2 strictly adhering to `snake_case` JSON serialization.
 
 ---
@@ -62,7 +62,7 @@ Antigravity agents must trigger these specialized skills when working in `backen
 | Skill | Trigger Conditions | Specific Instructions |
 | :--- | :--- | :--- |
 | **`@fastapi-pro`** | **Routers, Dependencies, Pydantic V2 models, WebSockets** | Implement clean async route handlers, idiomatic `Depends()` injection, response models with `model_config = ConfigDict(from_attributes=True)`, and async WebSocket connection managers. |
-| **`@auth-implementation-patterns`** | **Google OAuth verification, JWT issuance, RBAC security guards** | Validate Google ID tokens against `@dsp.edu.in` hosted domain, issue secure short-lived JWTs, handle refresh strategies, and enforce role guards (`get_current_active_user`, `require_roles(["staff", "head", "super_admin"])`). |
+| **`@auth-implementation-patterns`** | **Google OAuth verification, JWT issuance, RBAC security guards** | Validate Google ID tokens against `@despu.edu.in` hosted domain, issue secure short-lived JWTs, handle refresh strategies, and enforce role guards (`get_current_active_user`, `require_roles(["staff", "head", "super_admin"])`). |
 | **`@database-design`** | **SQLAlchemy models, schema modifications, Alembic migrations** | Design 3NF normalized tables with explicit foreign keys, composite indices for frequent query paths (e.g. `(receiver_id, created_at)` in messages), cascades, and data integrity constraints. |
 | **`@api-security-best-practices`** | **CORS policy, input sanitization, faculty anti-spam logic** | Configure restrictive CORS origins, prevent SQL injection via ORM parameterization, implement rate limiting on chat endpoints, enforce `dm_enabled` checks, and queue messages sent outside office hours. |
 | **`@uv-package-manager`** | **Python dependency management and virtual environments** | Execute all dependency additions (`uv add`, `uv add --dev`), environment syncing (`uv sync`), and command execution (`uv run`) exclusively via `uv`. Bare `pip` commands are strictly forbidden. |

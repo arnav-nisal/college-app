@@ -43,7 +43,7 @@ The application enforces strict four-tier hierarchical role-based permissions:
   - Frontend TypeScript models in `frontend/src/types/` must mirror these schemas with exact matching `snake_case` property names.
 
 ### 3.2 Authentication & Onboarding Lifecycle
-1. **Domain Restriction:** Google Sign-In is strictly restricted to the official institutional hosted domain (`@dsp.edu.in`).
+1. **Domain Restriction:** Google Sign-In is strictly restricted to the official institutional hosted domain (`@despu.edu.in`).
 2. **Backend Token Exchange:** Frontend sends Google ID Token / authorization credential via `POST /auth/google`.
 3. **Response Payload:** The backend verifies the token with `google-auth`, checks or provisions user in PostgreSQL, and returns:
    - `access_token` (App JWT)
